@@ -1,6 +1,10 @@
 <template>
   <div class="row">
-    <div class="col-12 pt-3" v-for="post in posts" :key="post.id">
+    <div
+      class="col-12 col-lg-4 col-md-6 pt-3"
+      v-for="post in posts"
+      :key="post.id"
+    >
       <div class="card">
         <img :src="post.featured_image" class="card-img-top" alt="..." />
         <div class="card-body">
